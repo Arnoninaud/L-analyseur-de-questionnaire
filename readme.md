@@ -101,13 +101,7 @@ install.packages(c(
 Un fichier **`exemple.csv`** est fourni pour tester l’application.  
 Lors du paramétrage, sélectionnez la colonne **`Departement`** comme variable contenant les noms des départements.
 
----
 
-## 🧑‍💻 Auteur
-
-**Arnaud Burel**  
-Master 1 – Cartographie et Gestion de l’Environnement  
-Université de Nantes
 
 
 
