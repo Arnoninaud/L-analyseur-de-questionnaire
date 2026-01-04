@@ -77,7 +77,7 @@ install.packages(c(
 ))
 ```
 
-⚠️ Une **connexion Internet** est requise pour certaines fonctionnalités (cartographie interactive).
+⚠️ Une **connexion Internet** est requise pour certaines fonctionnalités (cartographie interactive et thème de l'application).
 
 ---
 
