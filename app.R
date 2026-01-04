@@ -1,8 +1,3 @@
-# Shiny app SIMPLIFIÉE : ACM + clustering + cartographie
-# Échelles : Département et Région uniquement
-# Géolocalisation par nom de département
-# -------------------------------------------------------------
-
 library(shiny)
 library(leaflet)
 library(sf)
@@ -15,13 +10,9 @@ library(htmltools)
 library(data.table)
 library(DT)
 
-
-# ------------------ Charger les données cartographiques ------------------
-
 departements_sf <- readRDS("data_geo/dept_geometries.rds")
 regions_sf <- readRDS("data_geo/region_geometries.rds")
 
-# ------------------ UI ------------------
 ui <- fluidPage(
   theme = bslib::bs_theme(
     base_font = bslib::font_google("Montserrat"),
@@ -443,5 +434,6 @@ server <- function(input, output, session) {
       )
   })
 }
+
 
 shinyApp(ui, server)
