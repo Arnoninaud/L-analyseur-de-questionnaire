@@ -109,9 +109,5 @@ Lors du paramétrage, sélectionnez la colonne **`Departement`** comme variable 
 Master 1 – Cartographie et Gestion de l’Environnement  
 Université de Nantes
 
----
 
-## 📄 Licence
-
-À compléter selon votre choix (ex. MIT, GPL-3, CC-BY).
 
