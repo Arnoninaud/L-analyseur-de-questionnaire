@@ -5,7 +5,7 @@ Une application sur R qui permet de cartographié et analyser des questionnaire 
 La seul contrainte pour votre questionnaireet que pour cartographier vos résultats de questionnaires, il faut que votre questionnaire contienne une colonne avec le nom des département associé à chaques répondants.
 
 Il est aussi important d'avoir les couches admin express (https://geoservices.ign.fr/adminexpress) des département  et des régions de France soit  
-téléchargé et stockés dans un dossier nomé admin_express lui même dans un dossier où se trouve le ". 
+téléchargé et stockés dans un dossier nomé admin_express lui même dans un dossier où se trouve le fichier "analyseur de questionnaire.Rproj". 
 
 Il va falloir pour son fonctionnement préparer les données avec le script "préparation des données.R" avant de lancer les script "app.R"
 
