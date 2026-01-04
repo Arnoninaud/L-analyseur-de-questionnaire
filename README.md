@@ -10,4 +10,14 @@ Il va falloir pour son fonctionnement préparer les données avec le script "pre
 
 munissez-vous avant de commencer des packages sur R : 
 
-
+library(shiny)
+library(leaflet)
+library(sf)
+library(FactoMineR)
+library(dplyr)
+library(ggplot2)
+library(shinycssloaders)
+library(plotly)
+library(htmltools)
+library(data.table)
+library(DT)
