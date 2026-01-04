@@ -8,3 +8,6 @@ Il est aussi important d'avoir les couches admin express des département (https
 à la suite de leurs téléchargement, il est impératif de les stockés dans un dossier nomé admin_express. 
 Il va falloir pour son fonctionnement préparer les données avec le script "prepare_carto_simple.R" 
 
+munissez-vous avant de commencer des packages sur R : 
+
+
