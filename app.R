@@ -10,8 +10,6 @@ library(htmltools)
 library(data.table)
 library(DT)
 
-departements_sf <- readRDS("data_geo/dept_geometries.rds")
-regions_sf <- readRDS("data_geo/region_geometries.rds")
 
 ui <- fluidPage(
   theme = bslib::bs_theme(
@@ -85,7 +83,11 @@ ui <- fluidPage(
 
 # ------------------ SERVER ------------------
 server <- function(input, output, session) {
-  #bslib::bs_themer()
+ 
+   # ─────── Import des données cartographiques ───────
+  departements_sf <- readRDS("data_geo/dept_geometries.rds")
+  regions_sf <- readRDS("data_geo/region_geometries.rds")
+
   # ─────── Lecture CSV ───────
   data <- reactive({
     req(input$file)
@@ -437,3 +439,4 @@ server <- function(input, output, session) {
 
 
 shinyApp(ui, server)
+
