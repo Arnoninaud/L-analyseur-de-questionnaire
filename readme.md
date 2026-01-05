@@ -9,7 +9,7 @@ Elle repose sur une interface **Shiny** interactive et sur des données administ
 
 - Import de questionnaires au format `.csv`
 - Analyse statistique (comparaisons multiples)
-- Cartographie interactive des résultats par département
+- Cartographie interactive des résultats par département et régions
 - Visualisations dynamiques (graphiques, cartes, tableaux)
 - Interface web via **Shiny**
 
